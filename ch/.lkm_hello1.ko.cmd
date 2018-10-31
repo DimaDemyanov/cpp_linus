@@ -1,0 +1,1 @@
+cmd_/home/anastasia/progs/NastyaOsLabs/lab/ch/lkm_hello1.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/anastasia/progs/NastyaOsLabs/lab/ch/lkm_hello1.ko /home/anastasia/progs/NastyaOsLabs/lab/ch/lkm_hello1.o /home/anastasia/progs/NastyaOsLabs/lab/ch/lkm_hello1.mod.o ;  true
